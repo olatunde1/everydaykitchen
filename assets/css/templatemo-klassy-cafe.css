@@ -101,44 +101,6 @@ p {
   color: #2a2a2a;
 }
 
-.wrapper{
-  position: relative;
-  max-width: 345px !important;
-}
-
-.text{
-  /* height: 100vh; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.text_hide{
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: white;
-}
-
-.text_cursor{
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: transparent;
-  border-left: 3px solid black;
-}
-
-
-
-
-
-
-
-
 /* 
 ---------------------------------------------
 global styles
