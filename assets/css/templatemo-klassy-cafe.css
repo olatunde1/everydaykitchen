@@ -34,6 +34,7 @@ figure, header, nav, section, article, aside, footer, figcaption {
   padding: 0;
   border: 0;
   outline: 0;
+  box-sizing: border-box;
 }
 
 .clearfix:after {
@@ -100,16 +101,36 @@ p {
   color: #2a2a2a;
 }
 
+.wrapper{
+  position: relative;
+  max-width: 345px !important;
+}
 
+.text{
+  /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.text_hide{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+}
 
-
-
-
-
-
-
-
+.text_cursor{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: transparent;
+  border-left: 3px solid black;
+}
 
 
 
@@ -1620,6 +1641,7 @@ responsive
     font-weight: 700;
     /* padding-top: 10px; */
     width: 1240px !important;
+    
   }
   
   .main-white-button a {
@@ -1664,7 +1686,7 @@ responsive
   #menu {
     margin-top: 120px;
     background-color: #fffafa;
-    padding: 60px 0px;
+    padding: 100px 0px;
   }
 
 
